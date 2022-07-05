@@ -1,0 +1,65 @@
+:root {
+  --translation: 0;
+}
+
+.footer {
+  background-color: var(--dark-blue);
+  height: calc(var(--base-spacing) * 12);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 calc(var(--base-spacing) * 2);
+}
+
+.newsWrapper {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  gap: calc(var(--base-spacing) * 5);
+  position: absolute;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: moveNews;
+  animation-duration: 15s;
+}
+
+.message {
+  font-family: var(--text-font);
+  color: var(--white);
+  white-space: nowrap;
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--base-spacing) * 2);
+  position: absolute;
+  z-index: 20;
+  background-color: var(--dark-blue);
+  right: 0;
+  padding-right: calc(var(--base-spacing) * 2);
+}
+
+.smallDivider {
+  height: calc(var(--base-spacing) * 5);
+  background-color: #c5c5c5;
+  width: 1px;
+  border: none;
+}
+
+.divider {
+  height: calc(var(--base-spacing) * 7);
+  background-color: var(--white);
+  width: 1px;
+  border: none;
+}
+
+@keyframes moveNews {
+  from {
+    right: var(--translation);
+  }
+  to {
+    right: 100vw;
+  }
+}

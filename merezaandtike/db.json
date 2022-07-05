@@ -1,0 +1,32 @@
+{
+  "news": {
+    "articles": [
+      {
+        "id": "120938naskjdhas123",
+        "title": "Sunak ponders political future as wife escapes Downing Street heat",
+        "text": "For a man who watched with incredulity and not a little disapproval when the personal and political fused into a crisis for Boris Johnson, the past week has been a difficult one for Rishi Sunak and his team.",
+        "sourceURL": "https://www.thetimes.co.uk/article/sunak-ponders-political-future-as-wife-escapes-downing-street-goldfish-bowl-5gftqcmkk",
+        "audioUrl": "https://newsaudio.s3.eu-west-3.amazonaws.com/1649551463523.mp3",
+        "imageURL": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1539&q=80",
+        "sentiment": "happy",
+        "category": "entertainment",
+        "emotion": "happy"
+      },
+      {
+        "id": "9847kjhadfu34ja",
+        "title": "Civilians went to the station to escape. It turned into a killing zone",
+        "text": "The girl lay on a metal gurney, her face turned to the side, eyes closed, her blonde hair tied back in a ponytail. She was dressed in a shiny blue coat and black trousers.",
+        "sourceURL": "https://www.thetimes.co.uk/article/civilians-from-ukraine-went-to-kramatorsk-station-to-escape-russias-attacks-it-turned-into-a-killing-zone-5c2q9fs2m",
+        "audioUrl": "https://newsaudio.s3.eu-west-3.amazonaws.com/1649552351464.mp3",
+        "sentiment": "sad",
+        "category": "business",
+        "emotion": "sad"
+      }
+    ]
+  },
+  "customNews": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "This is another new!",
+    "Hello, how's it going!"
+  ]
+}

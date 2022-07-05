@@ -1,0 +1,30 @@
+:root {
+  --white: #ffffff;
+  --light-grey: #dddddd;
+  --grey: #75777c;
+  --dark-blue: #191d25;
+  --dark-grey: #1d2127;
+  --background-blue: #b3f1c8;
+
+  --base-spacing: 4px;
+
+  --base-font: 'Alata', sans-serif;
+  --text-font: 'Monda', sans-serif;
+}
+
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+span {
+  font-size: 14px;
+}
+
+button:hover {
+  cursor: pointer;
+}

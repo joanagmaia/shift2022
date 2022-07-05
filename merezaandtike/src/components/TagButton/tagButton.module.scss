@@ -1,0 +1,23 @@
+@import '../../index.scss';
+
+.tagButton {
+  background-color: var(--white);
+  border-radius: 120px;
+  padding: 0 calc(var(--base-spacing) * 3);
+  width: fit-content;
+  border: none;
+
+  &:hover {
+    background-color: var(--light-grey);
+  }
+}
+
+.medium {
+  height: 30px;
+  font-size: calc(var(--base-spacing) * 4);
+}
+
+.small {
+  height: 20px;
+  font-size: calc(var(--base-spacing) * 3);
+}
